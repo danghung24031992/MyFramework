@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1EE037F5BC6D4FC235654574 /* Pods_MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282069834799AC94B797070F /* Pods_MyFramework.framework */; };
+		1FCD8052276743E600973CB1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD8051276743E600973CB1 /* Constants.swift */; };
 		3A95CEB92261FD9200556741 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A95CEB72261FD9200556741 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A95CEC02262041800556741 /* APIRequestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A95CEBF2262041800556741 /* APIRequestLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CD8D640435856937F105B57 /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.debug.xcconfig"; path = "Target Support Files/Pods-MyFramework/Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		1FCD8051276743E600973CB1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		282069834799AC94B797070F /* Pods_MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A95CEB42261FD9200556741 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A95CEB72261FD9200556741 /* MyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				3A95CEB72261FD9200556741 /* MyFramework.h */,
 				3A95CEB82261FD9200556741 /* Info.plist */,
 				3A95CEBF2262041800556741 /* APIRequestLoader.swift */,
+				1FCD8051276743E600973CB1 /* Constants.swift */,
 			);
 			path = MyFramework;
 			sourceTree = "<group>";
@@ -76,7 +79,6 @@
 				1CD8D640435856937F105B57 /* Pods-MyFramework.debug.xcconfig */,
 				B12793E5A30BBE198477B891 /* Pods-MyFramework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A95CEC02262041800556741 /* APIRequestLoader.swift in Sources */,
+				1FCD8052276743E600973CB1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

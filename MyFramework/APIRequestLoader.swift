@@ -54,4 +54,9 @@ public class APIRequestLoader<T: APIRequest> {
             //
         }
     }
+    
+    func logErr(){
+        let domain = Constants.DOMAIN_URL
+        print(domain)
+    }
 }
